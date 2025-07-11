@@ -111,22 +111,27 @@ main {
     background-size: cover;
     background-position: center;
     display: flex;
-    gap: 100px;
+    gap: 10px;
     margin: 0 auto;
 }
 
 .third-content {
+    padding: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.third-content a {
+    text-align: left;
+}
+
 
 .third-title {
     color: rgb(255, 255, 255);
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    line-height: 20px;
     letter-spacing: 11%;
     text-align: left;
 }
@@ -139,6 +144,12 @@ main {
     line-height: 30px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.third-image {
+    padding: 75px;
+    height: 460px;
+    width: 320px;
 }
 
 .third-link {
@@ -249,6 +260,7 @@ main {
 .fifth-img-1 {
     /* width: 360px;
     height: 360px; */
+    padding: 15px;
     box-sizing: border-box;
     border: 15px solid rgb(255, 0, 0);
     border-radius: 50%;
@@ -269,4 +281,70 @@ main {
     line-height: 32px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+
+/* Sixth Section....................................... */
+.sixth-sec {
+    height: 980px;
+}
+
+.sixth-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-content-1 {
+    text-align: center;
+}
+
+.sixth-content-2 {
+    height: 650px;
+}
+
+.sixth-sec h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: 0%;
+}
+
+.heading {
+    color: red;
+}
+
+.sixth-para-1 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0%;
+}
+
+.sixth-para-2 {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sixth-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sixth-image-1 {
+    height: 550px;
+    width: 650px;
+    position: relative;
+    z-index: 1;
+    top: 200px;
+}
+
+.sixth-image-2 {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+    top: 200px;
 }
