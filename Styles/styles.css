@@ -286,7 +286,7 @@ main {
 
 /* Sixth Section....................................... */
 .sixth-sec {
-    height: 980px;
+    /* height: 980px; */
 }
 
 .sixth-content {
@@ -298,9 +298,6 @@ main {
     text-align: center;
 }
 
-.sixth-content-2 {
-    height: 650px;
-}
 
 .sixth-sec h1 {
     font-family: Merriweather;
@@ -347,4 +344,104 @@ main {
     position: relative;
     z-index: 1;
     top: 200px;
+}
+
+
+/* .Seventh Section................................ */
+.seventh-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.seventh-content {
+    text-align: left;
+}
+
+.seventh-para-1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.seventh-sec h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.seventh-para-2 {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.seventh-images {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 24px;
+}
+
+
+/* Eighth-Section........................... */
+.eighth-sec {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.eighth-content {
+    padding: 80px 210px;
+    text-align: center;
+}
+
+.eighth-sec h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.eighth-sec p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 50px;
+    display: flex;
+    gap: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.gmail {
+    width: 450px;
+    height: 50px;
+    padding: 25px 30px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    font-size: 40px;
+}
+
+.submit-btn {
+    width: 200px;
+    height: 100px;
+    padding: 25px 30px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
 }
